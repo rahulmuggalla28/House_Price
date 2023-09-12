@@ -29,4 +29,5 @@ def predict():
     
     return render_template('index.html', predicted_price = predicted_price)
 
-app.run()
+if '__name__' == '__main__':
+    app.run()
